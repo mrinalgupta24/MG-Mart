@@ -17,7 +17,7 @@ Celebal Technology Internship Assignment Week 7. This project demonstrates an e-
 
 1. Clone the repository:
     ```bash
-    git clone ttps://github.com/mrinalgupta24/MG-Mart.git
+    git clone https://github.com/mrinalgupta24/MG-Mart.git
     ```
 
 2. Install dependencies:
