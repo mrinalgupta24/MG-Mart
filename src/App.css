@@ -1,0 +1,138 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f2f2; 
+}
+
+nav {
+  display: flex;
+  list-style-type: none;
+  margin: 1rem 0;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: #7be8b5;
+  padding: 0.25rem;
+  border-radius: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: flex;
+  font-size: x-large;
+  margin-right: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 1rem;
+  object-fit: contain;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-size: medium;
+}
+
+.checkout-text {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.products-list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid; /* Changed display to grid */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Increased size of product list */
+  gap: 1rem;
+}
+
+.products-list li {
+  background-color: #7be8b5;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.product-description {
+  width: 15rem;
+}
+
+.cart-list li {
+  background-color: #f3efef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.cart-list input[type='number'] {
+  width: 50px;
+}
+
+.cart-end {
+  font-size: x-large;
+  padding: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #a0f9d0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-end button {
+  font-size: x-large;
+}
+
+.cart-actions {
+  margin-top: 20px;
+}
+
+.cart-actions button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-actions button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
